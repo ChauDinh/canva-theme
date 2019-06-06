@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a,
+i {
+  text-decoration: none !important;
+  color: #000;
+}
+
+.card {
+  padding: 0 !important;
+}
+
+.card-title,
+.card-subtitle {
+  font-weight: lighter;
+}
+
+.left-col {
+  background-color: #fff;
+  height: 100vh;
+  width: 300px;
+  padding: 0 2rem;
+  overflow: hidden;
+  box-shadow: 1px 0px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.left-col .user-info {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+.left-col .user-info:hover {
+  background-color: rgb(209, 209, 209);
+  cursor: pointer;
+}
+
+.left-col .user-info .avatar {
+  background-color: palevioletred;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: larger;
+}
+
+.left-col .user-info .username {
+  color: black;
+}
+
+.left-col .user-info .username {
+  color: black;
+}
+
+.left-col .user-info .dropdown-menu {
+  padding: 0.5rem 1rem;
+  width: 235px;
+  line-height: 2.5;
+  font-size: 0.8rem;
+  border: none;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.left-col .list-group {
+  padding-top: 2rem;
+}
+
+.left-col .list-group > li {
+  border: none !important;
+}
+
+.left-col .list-group > li:hover {
+  background-color: rgb(209, 209, 209);
+  cursor: pointer;
+  font-weight: bold;
+  color: #000;
+}
+
+.left-col .upgrade-button {
+  margin-top: 2rem;
+}
+
+.left-col .upgrade-button .btn:hover {
+  background-color: #f5f5f5 !important;
+}
+
+.right-col {
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+  margin-left: 320px;
+  overflow-x: hidden;
+  padding: 0 0.5rem;
+}
+
+.right-col .dashboard {
+  font-weight: lighter;
+  margin-top: 2.5rem;
+  padding: 0;
+  margin-bottom: 3.3rem;
+}
+
+.right-col .container-fluid .row .card {
+  margin: 0 1rem 2rem 0;
+  position: relative;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(241, 241, 241);
+  border: none;
+}
+
+.right-col .container-fluid .row .card .card-icon {
+  position: absolute;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
+  right: 15px;
+  top: -20px;
+}
+
+.right-col .container-fluid .row .card .reading-list {
+  background-color: lightpink;
+}
+
+.right-col .container-fluid .row .card .shop-cart {
+  background-color: lightskyblue;
+}
+
+.right-col .container-fluid .row .card .following {
+  background-color: aquamarine;
+}
+
+.right-col .container-fluid .row .card .follower {
+  background-color: coral;
+}
+
+.right-col .row {
+  margin-top: 2rem;
+}
+
+.right-col .row .table {
+  margin-left: 1rem;
+  margin-right: 2rem;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
+}
+
+.right-col .row .table:first-child {
+  background-color: rgb(253, 222, 240);
+}
+
+.right-col .row .table:last-child {
+  background-color: rgb(200, 241, 255);
+}
+
+@media (max-width: 1200px) {
+  .left-col {
+    display: none;
+  }
+
+  .right-col {
+    margin-left: 1rem;
+  }
+}
