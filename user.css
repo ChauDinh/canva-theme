@@ -154,8 +154,6 @@ canvas {
   box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
   margin-left: 1rem;
   margin-right: 2rem;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 @media (max-width: 1200px) {
